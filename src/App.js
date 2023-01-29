@@ -74,7 +74,7 @@ function App() {
           quo aut alias impedit tenetur! Eveniet corporis ut ratione debitis animi dicta. Quae, rem facere fugit
           asperiores nemo, neque, non voluptatem laborum eos quo harum! Saepe, amet corporis!</p>
 
-        <button style={{ display: "block" }} className="bg-bg-color margin-left:auto display:block margin-right:auto items-end justify-center border-4 rounded-md hover:underline hover:opacity-95 md:hover:py-[24px] px-[32px] py-[16px] hover:border-white md:px-[40px] md:py-[22px] text-primary-color font-semibold text-base text-center">View
+        <button style={{ display: "block", margin:"auto" }} className="bg-bg-color margin-left:auto display:block margin-right:auto items-end justify-center border-4 rounded-md hover:underline hover:opacity-95 md:hover:py-[24px] px-[32px] py-[16px] hover:border-white md:px-[40px] md:py-[22px] text-primary-color font-semibold text-base text-center">View
           Events</button>
 
         <div className='pb-[110px] md:pb-[175px]'></div>
@@ -102,7 +102,7 @@ function App() {
             <h1 className='text-5xl font-bold text-secondary-color'>Top Event Name</h1>
             <p className="text-gray-700 font-mono pt-[20px] pl-2 text-sm w-[184px]">Sun, JAN 22, 2023</p>
             <p className="text-xl pt-[51px] pl-2 font-medium text-secondary-color">Collection Name</p>
-            <p className="text-font-color text-xs text-left font-light w-[80%] pt-[14px] ml-2">Lorem ipsum dolor sit amet
+            <p className="text-font-color text-xs text-left font-light w-[80%] pt-[14px] m-2">Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Iure magnam doloribus quidem labore. Itaque, officiis optio corporis
               repellendus incidunt non modi nesciunt molestiae voluptatem, placeat est natus minus, harum animi.
             </p>
