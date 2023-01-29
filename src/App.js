@@ -36,7 +36,7 @@ function App() {
   // toggleSwitch.addEventListener('change', switchTheme, false);
 
   return (
-    <div className='bg-primary-color'>
+    <div className='bg-primary-color overflow-x-hidden'>
       <div className=' bg-sunburn bg-center bg-cover items-center min-h-fit'>
         <div className='flex pt-7 pl-5 pr-5 md:pl-18 md:pr-18 justify-between'>
           <div className="flex justify-center md:hidden">
@@ -83,15 +83,16 @@ function App() {
       <div>
         <div className='md:hidden flex flex-col items-center justify-center'>
           <img className='justify-center w-[350px] h-[350px] mt-28' src={require("./assets/guys.png")}></img>
-          <div className='justify-center -ml-20 flex-col items-center'>
+          <div className='justify-center ml-20 flex-col items-center'>
             <h1 className='text-4xl font-bold text-secondary-color pt-16'>Top Event Name</h1>
             <p className="text-gray-500 font-mono pt-[12px] pl-1 text-sm w-[184px]">Sun, JAN 22, 2023</p>
             <p className="text-xl pt-[51px] pl-2 font-medium text-secondary-color">Collection Name</p>
-          </div>
-          <p className="text-font-color text-xs text-left -ml-4 font-light w-[50%] pt-[14px] pl-2">Lorem ipsum dolor sit amet
+            <p className="text-font-color text-xs text-left font-light w-[50%] pt-[14px]">Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Iure magnam doloribus quidem labore. Itaque, officiis optio corporis
             repellendus incidunt non modi nesciunt molestiae voluptatem, placeat est natus minus, harum animi.
           </p>
+          </div>
+          
           <button className="bg-bg-color mt-16 md:hidden mr-3 h-8 hover:underline px-8 py-1 rounded-md border-2 text-primary-color font-medium text-center">Sign In</button>
           <div className='pb-[110px]'></div>
         </div>
