@@ -36,7 +36,6 @@ code {
 
 .theme-switch-wrapper {
   display: flex;
-  align-items: center;
 }
 .theme-switch {
   display: inline-block;
